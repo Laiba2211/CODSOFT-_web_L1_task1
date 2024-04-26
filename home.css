@@ -1,0 +1,250 @@
+ul>li>a.active{
+    color: white !important;
+    background-color: #D95B43;
+    padding: 8px 14px;
+    border-radius: 15px;
+
+}
+
+.hr-title h2{
+    display: table-cell;
+    white-space: pre;
+    padding-right: 20px;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.line span{
+
+    border-color: #f4f4f4;
+    border-bottom: 1px solid;
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-top: 6px;
+    background: #fff;
+}
+
+.hr-title{
+    display: table;
+    margin-bottom: 30px;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+.line{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    position: relative;
+    color: black;
+}  
+
+
+
+ul>li>a{
+    font-family: 'Open Sans', sans-serif;
+    color: black !important;
+    padding: 9px 13px;
+    font-size: 13px;
+
+}
+
+li{
+    margin-right: 10px;
+}
+
+.mainmenu{
+margin: 10px 0px;
+}
+
+.body1{
+    background-color: silver;
+    margin: 10px 0px;
+    color: blue;
+
+}
+
+.body2{
+
+}
+
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    border-style: none;
+}
+
+.card-title{
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    font-size: 18px;
+    color:#355c7d;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+    text-align: center;
+
+}
+.column .dt-sc-one-fourth{
+padding-left: 20px;
+padding-right: 70px;
+}
+
+.body3>.row>.card>.card-body{
+border: 1px solid;
+border-color: wheat;
+border-top: 0px;
+}
+.body3>.row .card{
+    text-align: center;
+}
+.card-subtitle{
+    text-align: center;
+}
+.card-text{
+    text-align: justify;
+}
+.body2>.row .card:hover .card-title { 
+color: lightcoral;
+}
+
+.body2>.row .card:hover .card-img-top { 
+
+    transition: all 0.4s ease;
+    -webkit-transform: rotate(30deg);
+    
+}
+
+.body3>.row .card:hover .card-title { 
+
+    color: lightcoral;
+}
+
+
+.fullwidth-section{
+    background-color: #355C7D;
+    display: block;
+    width: 100%;
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+.dt-sc-animate-num{
+text-align: center;
+}
+
+.fullwidth-section .dt-sc-animate-num .dt-sc-icon {
+    box-shadow: 0px 2px 1px #233f57;
+}
+.dt-sc-animate-num .dt-sc-icon{
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #444;
+    width: 66px;
+    height: 66px;
+    border-radius: 66px;
+    margin-bottom: 7px;
+}
+.fullwidth-section .dt-sc-animate-num .dt-sc-num-count{
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 13px;
+    display: inline-block;
+    font-family: 'Crete Round', serif;
+}
+
+.dt-sc-animate-num h3{
+    color: #739cbf;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.dt-sc-animate-num .dt-sc-num-count{
+    font-size: 28px;
+    margin-bottom: 13px;
+    display: inline-block;
+    vertical-align: baseline;
+}
+.dt-sc-animate-num{
+    margin-right: 45px;
+}
+.column.dt-sc-one-fourth.first :hover .fa.fa-group{
+    transition: all 300ms linear;
+    -webkit-transition:all 300ms linear;
+    -webkit-transform: rotate(360deg);
+}
+.column.dt-sc-one-fourth.first{
+    padding-left: 30px;
+}
+
+.column.dt-sc-one-fourth.second :hover .fa.fa-trophy{
+    transition: all 300ms linear;
+    -webkit-transition:all 300ms linear;
+    -webkit-transform: rotate(360deg);
+}
+.column.dt-sc-one-fourth.second{
+    padding-left: 80px;
+}
+.column.dt-sc-one-fourth.third :hover .fa.fa-flag{
+    transition: all 300ms linear;
+    -webkit-transition:all 300ms linear;
+    -webkit-transform: rotate(360deg);
+}
+
+.column.dt-sc-one-fourth.third{
+    padding-left: 30px;
+}
+
+.column.dt-sc-one-fourth.fourth :hover .fa.fa-book{
+    transition: all 300ms linear;
+    -webkit-transition:all 300ms linear;
+    -webkit-transform: rotate(360deg);
+}
+
+
+.column.dt-sc-one-fourth.fourth{
+    padding-left: 30px;
+}
+
+.column{
+    float: left;
+    margin: 0px,2%,0px,2%;
+    position: relative;
+    min-height: 1px;
+}
+
+.fullwidth-section{
+padding :10px;
+}
+
+.body5{
+
+
+ margin-left: 50%;
+    
+}
+
+
+.dt-sc-animate-num .dt-sc-icon .fa{
+    font-size: 20px;
+    line-height:66px;
+    transition: all 300ms linear;
+    -webkit-transition:all 300ms linear;
+}
+
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing:antialiased;
+}
+.fa-book::before{
+    content: "\f02d";
+}
